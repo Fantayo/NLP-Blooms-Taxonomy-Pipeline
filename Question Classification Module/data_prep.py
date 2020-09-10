@@ -73,3 +73,14 @@ def clean_text(text):
 dataset=df
 dataset['Text']=dataset['Text'].apply(clean_text)
 dataset
+
+#Converting Dataframe columns to Array values : 
+text=dataset['Text'].values
+labels=dataset[['Target']].values
+
+
+#Performing Train Test Split to perform split of data :
+X_train,y_train,X_test,y_test=train_test_split(text,labels,random_state=42,test_size=0.2)
+print(X_train.shape,X_test.shape)
+print(y_train.shape,y_test.shape)
+

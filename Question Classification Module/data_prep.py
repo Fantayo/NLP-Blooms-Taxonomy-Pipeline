@@ -37,3 +37,39 @@ max_length=40
 # Truncate and padding options
 trunc_type = 'post'
 padding_type = 'post'
+oov_tok = '<OOV>'
+
+#Text PreProc :
+
+REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
+BAD_SYMBOLS_RE = re.compile('[^0-9a-z #+_]')
+REMOVE_NUM = re.compile('[\d+]')
+STOPWORDS = set(stopwords.words('english'))
+manual_stop_words = ['u','knowledge','comprehension','application','analysis','synthesis','evaluation']
+
+def clean_text(text):
+    """
+    text: a string
+    return: modified initial string
+    """
+    # lowercase text
+    text = text.lower() 
+
+    # replace REPLACE_BY_SPACE_RE symbols by space in text
+    text = REPLACE_BY_SPACE_RE.sub(' ', text) 
+    
+    # Remove white space
+    text = REMOVE_NUM.sub('', text)
+
+    #  delete symbols which are in BAD_SYMBOLS_RE from text
+    text = BAD_SYMBOLS_RE.sub('', text) 
+
+    # delete stopwords from text
+    text = ' '.join(word for word in text.split() if word not in manual_stop_words) 
+    
+    return text
+
+#To Pre Process the Text : 
+dataset=df
+dataset['Text']=dataset['Text'].apply(clean_text)
+dataset

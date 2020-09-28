@@ -19,4 +19,5 @@ model.add(Bidirectional(LSTM(256,return_sequences=True)))
 model.add(Bidirectional(LSTM(128)))
 
 
-model.add(Dense(6,activati
+model.add(Dense(6,activation='softmax'))
+model.compile(loss='cate

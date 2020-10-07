@@ -27,4 +27,4 @@ batch_size = 8
 model.summary()
 
 
-history 
+history = model.fit(train_padded, train_labels,

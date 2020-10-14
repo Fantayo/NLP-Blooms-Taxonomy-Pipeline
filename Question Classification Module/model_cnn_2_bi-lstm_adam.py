@@ -32,4 +32,5 @@ history = model.fit(train_padded, train_labels, shuffle=True ,
                     validation_data=(validation_padded,valid_labels),
                     callbacks=[EarlyStopping(monitor='val_accuracy',patience=5)],verbose=1)
 
-# Results For Thi
+# Results For This Model :
+#Accuracy -> 80.00 % 

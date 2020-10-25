@@ -9,4 +9,6 @@ embedding_dim=128
 max_length=40
 
 path='PATH TO GLOVE EMBEDDINGS'
-#Using Word Embedding
+#Using Word Embeddings :
+word_index = tokenizer.word_index
+glove_dir = 'path

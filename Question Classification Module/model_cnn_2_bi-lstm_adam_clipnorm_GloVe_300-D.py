@@ -16,4 +16,5 @@ embeddings_index = {}
 
 
 f = open('path/Glove Embeddings/glove.6B.300d.txt')
-for l
+for line in f:
+    values = line.split

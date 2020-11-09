@@ -22,3 +22,5 @@ for line in f:
     coefs = np.asarray(values[1:], dtype='float32')
     embeddings_index[word] = coefs
 f.close()
+
+print('Found %s word vectors.' % len(embeddin

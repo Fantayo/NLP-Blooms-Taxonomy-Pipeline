@@ -26,4 +26,5 @@ f.close()
 print('Found %s word vectors.' % len(embeddings_index))
 print(word_index)
 
-embedding_dim
+embedding_dim = 300
+max_words = vocab_size          

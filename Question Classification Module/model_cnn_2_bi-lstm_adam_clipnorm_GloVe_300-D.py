@@ -27,4 +27,6 @@ print('Found %s word vectors.' % len(embeddings_index))
 print(word_index)
 
 embedding_dim = 300
-max_words = vocab_size          
+max_words = vocab_size              
+
+#Preparing Word Embedding Matrix with

@@ -33,4 +33,6 @@ max_words = vocab_size
 embedding_matrix2 = np.zeros((max_words, embedding_dim))
 
 for word, i in word_index.items():
-  if i <
+  if i < max_words:
+
+    embedding

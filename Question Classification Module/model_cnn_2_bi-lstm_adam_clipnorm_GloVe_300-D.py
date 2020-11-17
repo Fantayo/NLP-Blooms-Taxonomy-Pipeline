@@ -36,4 +36,5 @@ for word, i in word_index.items():
   if i < max_words:
 
     embedding_vector = embeddings_index.get(word)
-    if embedding_vector is not
+    if embedding_vector is not None:
+        # words not found 

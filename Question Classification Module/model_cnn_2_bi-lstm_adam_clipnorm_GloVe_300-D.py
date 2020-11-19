@@ -41,4 +41,5 @@ for word, i in word_index.items():
         embedding_matrix2[i] = embedding_vector
 
 tf.keras.backend.clear_session()
-optim=tf.k
+optim=tf.keras.optimizers.Adam(clipnorm=1.25)
+mo

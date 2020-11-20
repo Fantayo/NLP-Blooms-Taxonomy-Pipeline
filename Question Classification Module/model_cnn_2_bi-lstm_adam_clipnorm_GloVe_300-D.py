@@ -42,4 +42,5 @@ for word, i in word_index.items():
 
 tf.keras.backend.clear_session()
 optim=tf.keras.optimizers.Adam(clipnorm=1.25)
-mo
+model=Sequential()
+model.add(Embeddi

@@ -46,4 +46,6 @@ model=Sequential()
 model.add(Embedding(vocab_size,300,weights=[embedding_matrix2],input_length=train_padded.shape[1]))
 
 model.add(Conv1D(256,3,activation='relu',padding='valid'))
-model.add(MaxPooling1D(pool_
+model.add(MaxPooling1D(pool_size=2))
+
+model.add(Bidirectional(LSTM(256,re

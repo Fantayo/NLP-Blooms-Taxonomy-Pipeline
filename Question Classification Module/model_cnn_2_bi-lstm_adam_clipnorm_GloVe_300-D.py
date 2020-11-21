@@ -43,4 +43,6 @@ for word, i in word_index.items():
 tf.keras.backend.clear_session()
 optim=tf.keras.optimizers.Adam(clipnorm=1.25)
 model=Sequential()
-model.add(Embedding(vocab_size,300,weights=[embedding_matrix2],input_length=train_padded.shape[1]
+model.add(Embedding(vocab_size,300,weights=[embedding_matrix2],input_length=train_padded.shape[1]))
+
+model.add(Conv1D(256,3,activation='relu',padd

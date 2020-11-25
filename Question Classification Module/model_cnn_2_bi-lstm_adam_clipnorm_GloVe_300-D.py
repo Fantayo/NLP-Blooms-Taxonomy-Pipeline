@@ -53,4 +53,4 @@ model.add(Bidirectional(LSTM(128)))
 
 
 model.add(Dense(6,activation='softmax'))
-model.compile(lo
+model.compile(loss='categorical_crossentropy', 

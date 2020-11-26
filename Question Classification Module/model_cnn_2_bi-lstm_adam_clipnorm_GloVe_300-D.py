@@ -53,4 +53,8 @@ model.add(Bidirectional(LSTM(128)))
 
 
 model.add(Dense(6,activation='softmax'))
-model.compile(loss='categorical_crossentropy', optimizer=optim, metrics=['accuracy
+model.compile(loss='categorical_crossentropy', optimizer=optim, metrics=['accuracy'])
+
+epochs = 30
+batch_size = 8
+m

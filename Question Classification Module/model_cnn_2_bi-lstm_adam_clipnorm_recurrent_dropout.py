@@ -4,4 +4,6 @@ from tensorflow.keras.layers import Dense,Conv1D,LSTM,Bidirectional,Embedding,Gl
 from tensorflow.keras.callbacks import EarlyStopping
 
 
-vocab_size=10
+vocab_size=10000
+embedding_dim=128
+max_length

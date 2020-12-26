@@ -9,4 +9,5 @@ embedding_dim=128
 max_length=40
 
 tf.keras.backend.clear_session()
-optim
+optim=tf.keras.optimizers.Adam(clipnorm=1.25)
+model=Seq

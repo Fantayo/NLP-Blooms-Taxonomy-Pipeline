@@ -11,4 +11,4 @@ max_length=40
 tf.keras.backend.clear_session()
 optim=tf.keras.optimizers.Adam(clipnorm=1.25)
 model=Sequential()
-model.add(Embedding(vocab_siz
+model.add(Embedding(vocab_size,256,input_length=train_padded.shape[1]))

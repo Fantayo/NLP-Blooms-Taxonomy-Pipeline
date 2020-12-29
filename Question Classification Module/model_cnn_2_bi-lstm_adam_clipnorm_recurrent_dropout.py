@@ -18,4 +18,6 @@ model.add(MaxPooling1D(pool_size=2))
 
 
 model.add(Bidirectional(LSTM(256,return_sequences=True)))
-model.add(Bidirectional(LSTM(12
+model.add(Bidirectional(LSTM(128,recurrent_dropout=0.1)))
+
+model.add(Fla

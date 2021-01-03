@@ -23,4 +23,4 @@ model.add(Bidirectional(LSTM(128,recurrent_dropout=0.1)))
 model.add(Flatten())
 
 model.add(Dense(6,activation='softmax'))
-model.compile(lo
+model.compile(loss='categorical_crossentropy', o

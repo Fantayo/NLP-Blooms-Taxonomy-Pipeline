@@ -27,4 +27,7 @@ model.compile(loss='categorical_crossentropy', optimizer=optim, metrics=['accura
 
 epochs = 30
 batch_size = 8
-model.summary(
+model.summary()
+
+
+history = model.fit(train_pa

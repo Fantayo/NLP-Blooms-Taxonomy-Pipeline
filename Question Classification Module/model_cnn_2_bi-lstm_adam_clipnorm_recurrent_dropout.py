@@ -36,3 +36,7 @@ history = model.fit(train_padded, train_labels, shuffle=True ,
                     callbacks=[EarlyStopping(monitor='val_accuracy',patience=5)],verbose=1)
 
 
+
+
+# Results For This Model :
+#Accuracy -> 

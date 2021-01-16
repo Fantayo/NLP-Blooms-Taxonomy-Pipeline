@@ -39,4 +39,5 @@ history = model.fit(train_padded, train_labels, shuffle=True ,
 
 
 # Results For This Model :
-#Accuracy -> 
+#Accuracy -> 85.83 % 
+#Loss ->  0.56

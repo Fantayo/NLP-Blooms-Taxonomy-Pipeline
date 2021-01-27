@@ -5,4 +5,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 
 
 vocab_size=10000
-embedding_d
+embedding_dim=128
+max_length=40
+
+tf.keras.backend.clear_sessi

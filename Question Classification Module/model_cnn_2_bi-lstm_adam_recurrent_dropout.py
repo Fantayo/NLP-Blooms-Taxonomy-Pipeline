@@ -10,4 +10,4 @@ max_length=40
 
 tf.keras.backend.clear_session()
 model=Sequential()
-m
+model.add(Embedding(vocab_size,256,input_

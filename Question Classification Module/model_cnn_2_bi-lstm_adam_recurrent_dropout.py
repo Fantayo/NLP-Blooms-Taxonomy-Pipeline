@@ -16,4 +16,5 @@ model.add(Conv1D(256,3,activation='relu',padding='valid'))
 model.add(MaxPooling1D(pool_size=2))
 model.add(Dropout(0.1))
 
-model.add(Bidirectional(LSTM(256,return_s
+model.add(Bidirectional(LSTM(256,return_sequences=True)))
+model.add(Bidirectional(LS

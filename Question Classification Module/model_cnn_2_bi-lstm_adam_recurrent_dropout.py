@@ -19,4 +19,6 @@ model.add(Dropout(0.1))
 model.add(Bidirectional(LSTM(256,return_sequences=True)))
 model.add(Bidirectional(LSTM(128,recurrent_dropout=0.1)))
 model.add(Dropout(0.1))
-model.add(Fl
+model.add(Flatten())
+
+model.add(Dense(6,activation='so

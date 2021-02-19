@@ -21,4 +21,5 @@ model.add(Bidirectional(LSTM(128,recurrent_dropout=0.1)))
 model.add(Dropout(0.1))
 model.add(Flatten())
 
-model.add(Dense(6,activation='so
+model.add(Dense(6,activation='softmax'))
+model.compile(loss='categorical_cr

@@ -22,4 +22,4 @@ model.add(Dropout(0.1))
 model.add(Flatten())
 
 model.add(Dense(6,activation='softmax'))
-model.compile(loss='categorical_cr
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics

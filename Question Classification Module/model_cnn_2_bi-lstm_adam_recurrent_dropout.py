@@ -22,4 +22,7 @@ model.add(Dropout(0.1))
 model.add(Flatten())
 
 model.add(Dense(6,activation='softmax'))
-model.compile(loss='categorical_crossentropy', optimizer='adam', metrics
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+epochs = 30
+batch_size =

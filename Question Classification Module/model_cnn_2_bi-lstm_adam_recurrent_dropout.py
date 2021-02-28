@@ -30,4 +30,5 @@ model.summary()
 
 
 history = model.fit(train_padded, train_labels, shuffle=True ,
-                    epochs=epochs, batch_size=b
+                    epochs=epochs, batch_size=batch_size, 
+                    validation_dat

@@ -32,4 +32,8 @@ model.summary()
 history = model.fit(train_padded, train_labels, shuffle=True ,
                     epochs=epochs, batch_size=batch_size, 
                     validation_data=(validation_padded,valid_labels),
-                    callbacks=[EarlyStopping(monitor='val_accuracy',patience=5)],verbos
+                    callbacks=[EarlyStopping(monitor='val_accuracy',patience=5)],verbose=1)
+
+
+
+# Results For Th

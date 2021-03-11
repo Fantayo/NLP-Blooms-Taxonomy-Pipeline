@@ -21,3 +21,19 @@ model.add(Bidirectional(LSTM(128)))
 
 
 model.add(Dense(6,activation='softmax'))
+model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
+
+epochs = 30
+batch_size = 8
+model.summary()
+
+
+history = model.fit(train_padded, train_labels, shuffle=True ,
+                    epochs=epochs, batch_size=batch_size, 
+                    validation_data=(validation_padded,valid_labels),
+                    callbacks=[EarlyStopping(monitor='val_accuracy',patience=5)],verbose=1)
+
+
+# Results For This Model :
+#Accuracy -> 80.83 % 
+#Loss ->  0.6842

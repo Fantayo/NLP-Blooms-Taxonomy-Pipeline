@@ -9,4 +9,6 @@ embedding_dim=128
 max_length=40
 
 tf.keras.backend.clear_session()
-optim=tf.keras.optimizers.RMS
+optim=tf.keras.optimizers.RMSprop(clipnorm=1.25)
+model=Sequential()
+m

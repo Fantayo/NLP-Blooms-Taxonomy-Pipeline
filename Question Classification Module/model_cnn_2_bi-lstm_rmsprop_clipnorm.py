@@ -13,4 +13,5 @@ optim=tf.keras.optimizers.RMSprop(clipnorm=1.25)
 model=Sequential()
 model.add(Embedding(vocab_size,256,input_length=train_padded.shape[1]))
 
-model.add(Conv1D(256,3,activation='relu',
+model.add(Conv1D(256,3,activation='relu',padding='valid'))
+model.add(MaxPo

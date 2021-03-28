@@ -17,4 +17,7 @@ model.add(Conv1D(256,3,activation='relu',padding='valid'))
 model.add(MaxPooling1D(pool_size=2))
 
 model.add(Bidirectional(LSTM(256,return_sequences=True)))
-model.add(Bidirectional(LST
+model.add(Bidirectional(LSTM(128)))
+
+
+model.add(Dense(6,act

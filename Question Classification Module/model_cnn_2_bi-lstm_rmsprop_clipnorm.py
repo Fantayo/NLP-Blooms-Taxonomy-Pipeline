@@ -30,4 +30,5 @@ model.summary()
 
 history = model.fit(train_padded, train_labels, shuffle=True ,
                     epochs=epochs, batch_size=batch_size, 
-                    validation_data=(validation_padded,valid_labe
+                    validation_data=(validation_padded,valid_labels),
+                    callbacks

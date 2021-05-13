@@ -9,4 +9,6 @@ embedding_dim=128
 max_length=40
 
 
-path='PATH TO GLOVE EMBEDDI
+path='PATH TO GLOVE EMBEDDINGS'
+#Using Word Embeddings :
+word_ind

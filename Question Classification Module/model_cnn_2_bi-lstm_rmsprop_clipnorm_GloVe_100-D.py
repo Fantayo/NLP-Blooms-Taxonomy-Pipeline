@@ -6,4 +6,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 
 vocab_size=10000
 embedding_dim=128
-m
+max_length=40
+
+
+path='PATH TO GLOVE EMBEDDI

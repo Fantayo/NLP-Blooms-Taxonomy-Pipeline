@@ -19,4 +19,5 @@ embeddings_index = {}
 f = open('path/Glove Embeddings/glove.6B.100d.txt')
 for line in f:
     values = line.split()
-    word = values[
+    word = values[0]
+    coefs = np.asarray(values[1:

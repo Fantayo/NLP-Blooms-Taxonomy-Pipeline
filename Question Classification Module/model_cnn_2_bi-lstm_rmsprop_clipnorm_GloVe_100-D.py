@@ -21,4 +21,5 @@ for line in f:
     values = line.split()
     word = values[0]
     coefs = np.asarray(values[1:], dtype='float32')
-    embedd
+    embeddings_index[word] = coefs
+f.clo

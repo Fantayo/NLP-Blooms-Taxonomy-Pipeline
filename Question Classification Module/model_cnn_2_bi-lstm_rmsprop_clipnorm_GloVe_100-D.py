@@ -25,4 +25,7 @@ for line in f:
 f.close()
 
 print('Found %s word vectors.' % len(embeddings_index))
-print(word_inde
+print(word_index)
+
+embedding_dim = 100
+max_words = 

@@ -33,4 +33,5 @@ max_words = vocab_size
 #Preparing GloVe Embeddings Matrix using Word Vocab : 
 embedding_matrix = np.zeros((max_words, embedding_dim))
 
-for word, i
+for word, i in word_index.items():
+  if i < max_words:

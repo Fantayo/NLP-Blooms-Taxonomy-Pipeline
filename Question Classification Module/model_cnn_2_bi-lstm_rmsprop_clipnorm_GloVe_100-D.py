@@ -38,4 +38,5 @@ for word, i in word_index.items():
 
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is not None:
-        # words not found in embedding in
+        # words not found in embedding index will be all-zeros.
+        embeddin

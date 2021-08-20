@@ -40,3 +40,7 @@ for word, i in word_index.items():
     if embedding_vector is not None:
         # words not found in embedding index will be all-zeros.
         embedding_matrix[i] = embedding_vector
+
+
+tf.keras.backend.clear_session()
+optim

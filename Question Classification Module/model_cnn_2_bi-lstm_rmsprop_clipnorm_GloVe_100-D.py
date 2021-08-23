@@ -43,4 +43,4 @@ for word, i in word_index.items():
 
 
 tf.keras.backend.clear_session()
-optim
+optim=tf.keras.optimizers.RMSprop(clipn

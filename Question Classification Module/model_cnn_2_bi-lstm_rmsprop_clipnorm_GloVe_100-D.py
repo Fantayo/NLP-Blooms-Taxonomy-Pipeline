@@ -43,4 +43,6 @@ for word, i in word_index.items():
 
 
 tf.keras.backend.clear_session()
-optim=tf.keras.optimizers.RMSprop(clipn
+optim=tf.keras.optimizers.RMSprop(clipnorm=1.25)
+model=Sequential()
+model.add(Embedding(vocab

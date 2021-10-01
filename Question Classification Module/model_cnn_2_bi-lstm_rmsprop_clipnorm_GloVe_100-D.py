@@ -48,4 +48,6 @@ model=Sequential()
 model.add(Embedding(vocab_size,100,weights=[embedding_matrix],input_length=train_padded.shape[1]))
 
 model.add(Conv1D(256,3,activation='relu',padding='valid'))
-model.
+model.add(MaxPooling1D(pool_size=2))
+
+m

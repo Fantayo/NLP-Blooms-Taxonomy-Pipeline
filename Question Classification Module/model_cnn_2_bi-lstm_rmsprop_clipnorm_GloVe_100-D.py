@@ -62,4 +62,5 @@ batch_size = 8
 model.summary()
 
 
-history = model.fit(train_padded, train_labels, shuf
+history = model.fit(train_padded, train_labels, shuffle=True ,
+                    epochs=epoch

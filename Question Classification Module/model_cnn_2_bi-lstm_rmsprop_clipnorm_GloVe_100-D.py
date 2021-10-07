@@ -62,4 +62,4 @@ batch_size = 8
 model.summary()
 
 
-history = mod
+history = model.fit(train_padded, train_labels, shuf

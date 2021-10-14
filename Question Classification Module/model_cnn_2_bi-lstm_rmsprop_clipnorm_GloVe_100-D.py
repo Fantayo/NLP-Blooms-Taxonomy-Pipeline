@@ -73,4 +73,4 @@ batch_size = 8
 model.summary()
 
 
-history = model.fit(trai
+history = model.fit(train_padded, train_labels, shuffle=Tru

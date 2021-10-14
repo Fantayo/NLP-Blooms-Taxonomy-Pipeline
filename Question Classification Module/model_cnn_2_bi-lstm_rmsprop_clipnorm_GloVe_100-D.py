@@ -70,4 +70,7 @@ history = model.fit(train_padded, train_labels, shuffle=True ,
 
 epochs = 30
 batch_size = 8
-mode
+model.summary()
+
+
+history = model.fit(trai

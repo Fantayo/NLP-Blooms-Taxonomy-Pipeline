@@ -80,3 +80,5 @@ history = model.fit(train_padded, train_labels, shuffle=True ,
 
 
 
+# Results For This Model :
+#Accurac

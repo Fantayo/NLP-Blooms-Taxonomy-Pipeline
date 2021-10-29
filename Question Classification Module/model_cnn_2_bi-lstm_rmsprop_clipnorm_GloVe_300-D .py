@@ -10,4 +10,5 @@ max_length=40
 
 
 path='PATH TO GLOVE EMBEDDINGS'
-#Using Word Embeddi
+#Using Word Embeddings :
+word_index = tokenizer.word_inde

@@ -13,4 +13,7 @@ path='PATH TO GLOVE EMBEDDINGS'
 #Using Word Embeddings :
 word_index = tokenizer.word_index
 glove_dir = 'path/Glove Embeddings/glove.6B.300d.txt'
-embeddings_in
+embeddings_index = {}
+
+
+f = open('path/Glove Emb

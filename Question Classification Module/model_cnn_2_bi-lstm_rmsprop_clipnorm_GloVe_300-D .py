@@ -16,4 +16,6 @@ glove_dir = 'path/Glove Embeddings/glove.6B.300d.txt'
 embeddings_index = {}
 
 
-f = open('path/Glove Emb
+f = open('path/Glove Embeddings/glove.6B.300d.txt')
+for line in f:
+ 

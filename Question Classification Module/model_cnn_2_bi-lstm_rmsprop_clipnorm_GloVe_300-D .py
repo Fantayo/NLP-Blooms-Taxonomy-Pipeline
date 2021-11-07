@@ -28,4 +28,6 @@ print('Found %s word vectors.' % len(embeddings_index))
 print(word_index)
 
 embedding_dim = 100
-max_words = vocab_s
+max_words = vocab_size             
+
+#Preparing GloV

@@ -31,4 +31,6 @@ embedding_dim = 100
 max_words = vocab_size             
 
 #Preparing GloVe Embeddings Matrix using Word Vocab : 
-embedding_matrix2 = np.zeros(
+embedding_matrix2 = np.zeros((max_words, embedding_dim))
+
+for word, i in word_i

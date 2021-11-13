@@ -36,4 +36,5 @@ embedding_matrix2 = np.zeros((max_words, embedding_dim))
 for word, i in word_index.items():
   if i < max_words:
 
-    embedding_vector = embeddi
+    embedding_vector = embeddings_index.get(word)
+    if embeddin

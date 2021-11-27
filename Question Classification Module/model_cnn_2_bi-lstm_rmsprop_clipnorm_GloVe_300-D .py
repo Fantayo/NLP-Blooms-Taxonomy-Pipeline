@@ -53,4 +53,7 @@ model.add(MaxPooling1D(pool_size=2))
 model.add(Bidirectional(LSTM(256)))
 
 model.add(Dense(6,activation='softmax'))
-model.compile(loss='categorical_crossentropy', optimizer=optim, metri
+model.compile(loss='categorical_crossentropy', optimizer=optim, metrics=['accuracy'])
+
+epochs = 30
+batch_size

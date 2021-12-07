@@ -48,3 +48,5 @@ acc = model.predict_proba(padded)
 predicted_label = encode.inverse_transform(pred)
 
 print(f'Category id: {np.argmax(pred[0])}')
+print(f'Predicted label is: {predicted_label[0]}')
+print(f'Accuracy score: { acc.max() * 100}')

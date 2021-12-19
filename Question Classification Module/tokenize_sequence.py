@@ -5,4 +5,5 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense,Conv1D,LSTM,Bidirectional,Embedding,GlobalMaxPooling1D,Dropout,Flatten,MaxPool1D,MaxPooling1D
-from tensorflow.keras.callbacks import Red
+from tensorflow.keras.callbacks import ReduceLROnPlateau,EarlyStopping
+

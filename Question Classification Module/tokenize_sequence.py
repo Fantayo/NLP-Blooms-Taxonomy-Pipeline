@@ -7,4 +7,4 @@ from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense,Conv1D,LSTM,Bidirectional,Embedding,GlobalMaxPooling1D,Dropout,Flatten,MaxPool1D,MaxPooling1D
 from tensorflow.keras.callbacks import ReduceLROnPlateau,EarlyStopping
 
-from sklearn.metrics import accuracy_score,precisi
+from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score,confusio

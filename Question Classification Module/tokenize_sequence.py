@@ -16,4 +16,6 @@ import re
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
-from nlt
+from nltk.corpus import stopwords
+
+#Importing Tokenizer 

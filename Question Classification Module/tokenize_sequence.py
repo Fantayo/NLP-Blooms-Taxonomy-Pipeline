@@ -14,4 +14,6 @@ from sklearn.model_selection import train_test_split
 from nltk.stem import PorterStemmer
 import re
 import nltk
-nltk.download('sto
+nltk.download('stopwords')
+nltk.download('punkt')
+from nlt

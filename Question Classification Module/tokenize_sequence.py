@@ -20,4 +20,7 @@ from nltk.corpus import stopwords
 
 #Importing Tokenizer to break down raw text into tokens with unique IDs :
 tokenizer=Tokenizer(num_words=vocab_size,oov_token='<OOV>')
-tokenizer.fit_on_texts(X_train
+tokenizer.fit_on_texts(X_train)
+
+#For Word Vocab:
+word_index=tokeniz

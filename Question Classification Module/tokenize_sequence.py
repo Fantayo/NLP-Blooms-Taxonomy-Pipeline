@@ -23,4 +23,7 @@ tokenizer=Tokenizer(num_words=vocab_size,oov_token='<OOV>')
 tokenizer.fit_on_texts(X_train)
 
 #For Word Vocab:
-word_index=tokeniz
+word_index=tokenizer.word_index
+word_index
+
+len(word_index

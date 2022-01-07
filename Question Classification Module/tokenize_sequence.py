@@ -26,4 +26,7 @@ tokenizer.fit_on_texts(X_train)
 word_index=tokenizer.word_index
 word_index
 
-len(word_index
+len(word_index)
+
+
+#Coverting The Unique Tokens obatined fr

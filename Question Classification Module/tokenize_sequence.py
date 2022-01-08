@@ -30,4 +30,5 @@ len(word_index)
 
 
 #Coverting The Unique Tokens obatined from tokenizer to Sequences :
-train_seq=tokenizer.texts_to_sequences(X_tr
+train_seq=tokenizer.texts_to_sequences(X_train)
+train_padded=pad_sequences(tra

@@ -29,4 +29,5 @@ word_index
 len(word_index)
 
 
-#Coverting The Unique Tokens obatined fr
+#Coverting The Unique Tokens obatined from tokenizer to Sequences :
+train_s

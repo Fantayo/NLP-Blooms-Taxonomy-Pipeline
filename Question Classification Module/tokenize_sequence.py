@@ -34,4 +34,4 @@ train_seq=tokenizer.texts_to_sequences(X_train)
 train_padded=pad_sequences(train_seq,maxlen=max_length,padding=padding_type,truncating=trunc_type)
 
 validation_seq=tokenizer.texts_to_sequences(y_train)
-validation_padded=pad_sequences(validation_seq,maxlen=max_l
+validation_padded=pad_sequences(validation_seq,maxlen=max_length,padding=padding_type,truncating=

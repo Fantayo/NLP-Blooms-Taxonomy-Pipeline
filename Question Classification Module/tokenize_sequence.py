@@ -36,4 +36,5 @@ train_padded=pad_sequences(train_seq,maxlen=max_length,padding=padding_type,trun
 validation_seq=tokenizer.texts_to_sequences(y_train)
 validation_padded=pad_sequences(validation_seq,maxlen=max_length,padding=padding_type,truncating=trunc_type)
 
-print('Shape of data tensor:', train_
+print('Shape of data tensor:', train_padded.shape)
+print('Shape of data tensor:', validatio

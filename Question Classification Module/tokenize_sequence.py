@@ -40,4 +40,5 @@ print('Shape of data tensor:', train_padded.shape)
 print('Shape of data tensor:', validation_padded.shape)
 
 
-#To Encode The Tar
+#To Encode The Target Labels to Integers : 
+encode=OneHotEnco

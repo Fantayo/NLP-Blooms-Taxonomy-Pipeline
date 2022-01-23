@@ -42,4 +42,5 @@ print('Shape of data tensor:', validation_padded.shape)
 
 #To Encode The Target Labels to Integers : 
 encode=OneHotEncoder()
-train_labels=encode.fit_transfo
+train_labels=encode.fit_transform(X_test)
+valid_labels=encode.tran

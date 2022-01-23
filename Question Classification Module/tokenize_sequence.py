@@ -46,4 +46,5 @@ train_labels=encode.fit_transform(X_test)
 valid_labels=encode.transform(y_test)
 
 
-train_labels=train_labels.
+train_labels=train_labels.toarray()
+valid_labels=valid_labels.toarray()

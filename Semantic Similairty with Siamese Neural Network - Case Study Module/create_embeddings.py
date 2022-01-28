@@ -10,3 +10,4 @@ hiddendim=128
 
 
 word_index = tokenizer.word_index
+glove_dir = 'path/Glove Emb

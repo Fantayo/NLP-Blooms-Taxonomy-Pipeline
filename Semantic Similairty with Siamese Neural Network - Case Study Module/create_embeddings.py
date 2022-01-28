@@ -10,4 +10,5 @@ hiddendim=128
 
 
 word_index = tokenizer.word_index
-glove_dir = 'path/Glove Emb
+glove_dir = 'path/Glove Embeddings/glove.6B.100d.txt'
+embedding

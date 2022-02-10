@@ -22,4 +22,4 @@ for line in f:
     embeddings_index[word] = coefs
 f.close()
 
-print('Found %s word ve
+print('Found %s word vectors.' % len(embeddings_inde

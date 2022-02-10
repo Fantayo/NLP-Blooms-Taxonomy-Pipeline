@@ -26,3 +26,4 @@ print('Found %s word vectors.' % len(embeddings_index))
 print(word_index)
 
 embedding_dim = 100
+max_words = 50000       

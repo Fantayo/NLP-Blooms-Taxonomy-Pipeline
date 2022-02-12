@@ -30,4 +30,5 @@ max_words = 50000              # OR -> LEN(WORDINDEX) + 1
 
 embedding_matrix = np.zeros((max_words, embedding_dim))
 
-for wo
+for word, i in word_index.items():
+  

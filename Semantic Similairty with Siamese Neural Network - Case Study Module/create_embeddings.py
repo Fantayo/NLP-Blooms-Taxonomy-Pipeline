@@ -28,4 +28,4 @@ print(word_index)
 embedding_dim = 100
 max_words = 50000              # OR -> LEN(WORDINDEX) + 1
 
-embed
+embedding_matrix = np.zeros((

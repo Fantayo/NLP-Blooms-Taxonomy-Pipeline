@@ -5,4 +5,5 @@ import tensorflow as tf
 import nltk
 import re
 
-nltk.down
+nltk.download('stopwords')
+from nltk.tokenize import wor

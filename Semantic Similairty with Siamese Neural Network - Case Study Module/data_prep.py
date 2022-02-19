@@ -10,4 +10,4 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 import tensorflow as tf
-from ten
+from tensorflow.keras.preprocessing.sequence import p

@@ -10,4 +10,5 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 import tensorflow as tf
-from tensorflow.keras.preprocessing.sequence import p
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.prepr

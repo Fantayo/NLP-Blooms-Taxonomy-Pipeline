@@ -18,4 +18,5 @@ import tensorflow.keras.backend as K
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Embedding, LSTM,Bidirectional,Concatenate,BatchNormalization
 import tensorflow.keras.backend as K
-from tensorflow.keras.optim
+from tensorflow.keras.optimizers import Adadelta,Adam
+from tensorflo

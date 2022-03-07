@@ -22,3 +22,8 @@ from tensorflow.keras.optimizers import Adadelta,Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.layers import LeakyReLU,Dense,Dropout,Lambda
 from tensorflow.keras import metrics
+
+import time
+
+#Link to data :
+data_path

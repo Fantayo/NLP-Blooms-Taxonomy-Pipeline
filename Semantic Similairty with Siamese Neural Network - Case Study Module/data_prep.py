@@ -26,4 +26,7 @@ from tensorflow.keras import metrics
 import time
 
 #Link to data :
-data_path='/content//data/Quora/train.cs
+data_path='/content//data/Quora/train.csv'
+data=pd.read_csv(data_path)
+
+#To Get 

@@ -26,4 +26,4 @@ from tensorflow.keras import metrics
 import time
 
 #Link to data :
-data_path
+data_path='/content//data/Quora/train.cs

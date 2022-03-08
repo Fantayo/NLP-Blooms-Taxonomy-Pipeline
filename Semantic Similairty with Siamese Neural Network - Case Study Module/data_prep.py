@@ -29,4 +29,7 @@ import time
 data_path='/content//data/Quora/train.csv'
 data=pd.read_csv(data_path)
 
-#To Get 
+#To Get Data Length :
+data_length=len(data)
+
+#PREPROCE

@@ -32,4 +32,7 @@ data=pd.read_csv(data_path)
 #To Get Data Length :
 data_length=len(data)
 
-#PREPROCE
+#PREPROCESS THE TEXT
+import nltk 
+import re 
+de

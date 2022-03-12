@@ -38,4 +38,5 @@ import re
 def process_text(text):
    text = re.sub(r"it\'s","it is",str(text))
    text = re.sub(r"i\'d","i would",str(text))
-   text = re.sub(r
+   text = re.sub(r"don\'t","do not",str(text))
+   text = re.

@@ -36,4 +36,5 @@ data_length=len(data)
 import nltk 
 import re 
 def process_text(text):
-   text = re.
+   text = re.sub(r"it\'s","it is",str(text))
+   text = re.sub(r"i\'d","i w

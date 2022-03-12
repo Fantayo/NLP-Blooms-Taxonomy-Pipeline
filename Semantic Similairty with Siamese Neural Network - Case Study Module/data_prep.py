@@ -35,4 +35,5 @@ data_length=len(data)
 #PREPROCESS THE TEXT
 import nltk 
 import re 
-de
+def process_text(text):
+   text = re.

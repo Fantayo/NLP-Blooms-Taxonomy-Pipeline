@@ -44,4 +44,5 @@ def process_text(text):
    text = re.sub(r"that\'s","that is",str(text)) 
    text = re.sub(r"can\'t", "can not", text) 
    text = re.sub(r"cannot", "can not ", text) 
-   text = re.sub(r"what
+   text = re.sub(r"what\'s", "what is", text) 
+   text = re.sub(r"W

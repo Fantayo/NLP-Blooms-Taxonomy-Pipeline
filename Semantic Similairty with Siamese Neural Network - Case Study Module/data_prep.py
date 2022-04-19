@@ -42,4 +42,5 @@ def process_text(text):
    text = re.sub(r"he\'s","he is",str(text)) 
    text = re.sub(r"there\'s","there is",str(text)) 
    text = re.sub(r"that\'s","that is",str(text)) 
-   text = re.sub(r"can
+   text = re.sub(r"can\'t", "can not", text) 
+   text = re.sub(r"cannot"

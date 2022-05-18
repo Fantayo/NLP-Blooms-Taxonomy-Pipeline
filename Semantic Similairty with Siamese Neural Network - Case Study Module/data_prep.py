@@ -48,4 +48,5 @@ def process_text(text):
    text = re.sub(r"What\'s", "what is", text) 
    text = re.sub(r"\'ve ", " have ", text) 
    text = re.sub(r"n\'t", " not ", text) 
-   text = re.sub(r"i\'m", "i am ", te
+   text = re.sub(r"i\'m", "i am ", text) 
+   text = re.sub(r"I\'m", "i am

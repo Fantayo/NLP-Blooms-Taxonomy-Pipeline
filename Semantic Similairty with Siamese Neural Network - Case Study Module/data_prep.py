@@ -51,4 +51,5 @@ def process_text(text):
    text = re.sub(r"i\'m", "i am ", text) 
    text = re.sub(r"I\'m", "i am ", text) 
    text = re.sub(r"\'re", " are ", text) 
-   text = re.sub(r"\'
+   text = re.sub(r"\'d", " would ", text) 
+   text = re.sub(r

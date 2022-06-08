@@ -54,4 +54,5 @@ def process_text(text):
    text = re.sub(r"\'d", " would ", text) 
    text = re.sub(r"\'ll", " will ", text) 
    text = re.sub(r"\'s"," is",text) 
-   text = re.s
+   text = re.sub(r"[0-9]"," ",str(text)) 
+   text

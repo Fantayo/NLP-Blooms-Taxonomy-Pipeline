@@ -56,4 +56,6 @@ def process_text(text):
    text = re.sub(r"\'s"," is",text) 
    text = re.sub(r"[0-9]"," ",str(text)) 
    text= re.sub('[^A-Za-z0-9]+'," ", text) 
-   w
+   words = text.split() 
+   
+   return " ".join(wor

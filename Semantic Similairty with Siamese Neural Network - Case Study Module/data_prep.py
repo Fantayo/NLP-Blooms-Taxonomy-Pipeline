@@ -58,4 +58,8 @@ def process_text(text):
    text= re.sub('[^A-Za-z0-9]+'," ", text) 
    words = text.split() 
    
-   return " ".join(wor
+   return " ".join(word.lower() for word in words)
+
+
+
+   #M

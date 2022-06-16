@@ -64,4 +64,5 @@ def process_text(text):
 
    #Manual Train Test Split :
 
-train_size=in
+train_size=int(data_length*0.8)
+test_size=int(data_length-t

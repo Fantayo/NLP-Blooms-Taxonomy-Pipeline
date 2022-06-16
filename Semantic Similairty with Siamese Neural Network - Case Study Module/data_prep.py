@@ -62,4 +62,6 @@ def process_text(text):
 
 
 
-   #M
+   #Manual Train Test Split :
+
+train_size=in

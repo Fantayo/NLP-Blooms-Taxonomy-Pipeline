@@ -65,4 +65,7 @@ def process_text(text):
    #Manual Train Test Split :
 
 train_size=int(data_length*0.8)
-test_size=int(data_length-t
+test_size=int(data_length-train_size)
+
+
+#To Get the total training corp

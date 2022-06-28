@@ -69,4 +69,7 @@ test_size=int(data_length-train_size)
 
 
 #To Get the total training corpus with pre processed text :
-total_train_corp
+total_train_corpus=[]
+for i in range(train_size):
+  
+  total_tra

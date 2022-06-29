@@ -72,4 +72,4 @@ test_size=int(data_length-train_size)
 total_train_corpus=[]
 for i in range(train_size):
   
-  total_train_corpus.append([ process_text(data['question
+  total_train_corpus.append([ process_text(data['question1'][:train_size][i] ), process_text ( 

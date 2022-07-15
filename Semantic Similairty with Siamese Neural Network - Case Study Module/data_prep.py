@@ -77,4 +77,4 @@ for i in range(train_size):
 
 #To Get the total test corpus with pre processed text :
 total_test_corpus=[]
-for i
+for i in range(train_size,data_length):  

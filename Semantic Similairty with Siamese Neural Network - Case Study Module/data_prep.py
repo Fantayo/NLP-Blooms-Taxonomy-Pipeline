@@ -81,4 +81,6 @@ for i in range(train_size,data_length):
   total_test_corpus.append([ process_text ( data['question1'][train_size: ][i] ) , process_text ( data['question2'][train_size:][i] ) ])
 
 
-#Labels -> Since they are already encod
+#Labels -> Since they are already encoded -> 0 or 1 :
+
+train_labels=n

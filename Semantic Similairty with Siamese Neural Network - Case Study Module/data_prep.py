@@ -84,4 +84,7 @@ for i in range(train_size,data_length):
 #Labels -> Since they are already encoded -> 0 or 1 :
 
 train_labels=np.array(data['is_duplicate'][:train_size])
-test_labels=np.array(data['is_du
+test_labels=np.array(data['is_duplicate'][train_size:data_length])
+
+
+#M

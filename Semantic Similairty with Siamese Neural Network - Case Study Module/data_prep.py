@@ -87,4 +87,6 @@ train_labels=np.array(data['is_duplicate'][:train_size])
 test_labels=np.array(data['is_duplicate'][train_size:data_length])
 
 
-#M
+#Manual pairing of questions :
+
+train_ques1=[

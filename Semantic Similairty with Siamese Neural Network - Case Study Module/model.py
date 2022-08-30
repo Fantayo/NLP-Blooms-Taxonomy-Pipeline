@@ -1,3 +1,3 @@
 
 import tensorflow as tf
-from tensorflow.keras.pre
+from tensorflow.keras.preprocessing.sequence import pad_seq

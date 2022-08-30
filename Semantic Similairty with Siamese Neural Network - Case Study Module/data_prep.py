@@ -90,4 +90,6 @@ test_labels=np.array(data['is_duplicate'][train_size:data_length])
 #Manual pairing of questions :
 
 train_ques1=[s[0] for s in total_train_corpus]
-train_que
+train_ques2=[s[1] for s in total_train_corpus]
+
+test_ques1=[s[0] for s in 

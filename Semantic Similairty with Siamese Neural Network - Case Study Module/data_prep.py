@@ -93,4 +93,10 @@ train_ques1=[s[0] for s in total_train_corpus]
 train_ques2=[s[1] for s in total_train_corpus]
 
 test_ques1=[s[0] for s in total_test_corpus]
-test_ques2=[s[1] for s i
+test_ques2=[s[1] for s in total_test_corpus]
+
+
+
+
+
+

@@ -6,4 +6,5 @@ import tensorflow.keras.backend as K
 
 
 from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input, E
+from tensorflow.keras.layers import Input, Embedding, LSTM
+import tensorflow.ker

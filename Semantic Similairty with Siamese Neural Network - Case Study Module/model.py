@@ -9,4 +9,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Embedding, LSTM
 import tensorflow.keras.backend as K
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.layers import Lamb
+from tensorflow.keras.layers import Lambda
+
+#Imp PARAMS :
+maxsentence_len

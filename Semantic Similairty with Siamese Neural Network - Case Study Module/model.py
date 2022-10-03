@@ -12,4 +12,6 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.layers import Lambda
 
 #Imp PARAMS :
-maxsentence_len
+maxsentence_length=sentence_length
+embedding_dim=100
+max_num

@@ -19,4 +19,4 @@ hiddendim=128
 
 #Main Model:
 def manhattandistance(l1,l2):
-		re
+		return K.exp(-K.sum(K.abs(l1-l2), axis=1

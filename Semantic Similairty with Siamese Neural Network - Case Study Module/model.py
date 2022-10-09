@@ -17,4 +17,6 @@ embedding_dim=100
 max_num_words=50000
 hiddendim=128   
 
-#Main Mode
+#Main Model:
+def manhattandistance(l1,l2):
+		re

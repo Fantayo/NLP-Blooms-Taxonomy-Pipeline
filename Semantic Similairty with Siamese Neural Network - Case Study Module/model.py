@@ -14,4 +14,7 @@ from tensorflow.keras.layers import Lambda
 #Imp PARAMS :
 maxsentence_length=sentence_length
 embedding_dim=100
-max_num
+max_num_words=50000
+hiddendim=128   
+
+#Main Mode

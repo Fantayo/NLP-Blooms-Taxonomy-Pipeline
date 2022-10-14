@@ -25,4 +25,4 @@ def siamese_manhattan_network(embed_mat_weights):
 
 
 	ques1 = Input(shape=(maxsentence_length,))
-	ques
+	ques2 = Input(shape=(maxsente

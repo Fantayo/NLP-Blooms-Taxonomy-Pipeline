@@ -21,4 +21,7 @@ hiddendim=128
 def manhattandistance(l1,l2):
 		return K.exp(-K.sum(K.abs(l1-l2), axis=1, keepdims=True))
 
-def siamese_man
+def siamese_manhattan_network(embed_mat_weights):
+
+
+	ques1 = Inp

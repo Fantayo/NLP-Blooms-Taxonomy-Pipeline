@@ -27,4 +27,5 @@ def siamese_manhattan_network(embed_mat_weights):
 	ques1 = Input(shape=(maxsentence_length,))
 	ques2 = Input(shape=(maxsentence_length,))
 
-	embedding_layer = Embedding(input_dim=max_num_words,output
+	embedding_layer = Embedding(input_dim=max_num_words,output_dim=embedding_dim,weights=[embed_mat_weights],
+   

@@ -33,4 +33,6 @@ def siamese_manhattan_network(embed_mat_weights):
 	ques1_embed = embedding_layer(ques1)
 	ques2_embed = embedding_layer(ques2)
 
-	lstm = LSTM(hiddendim,return_
+	lstm = LSTM(hiddendim,return_sequences=False)
+
+	ques1_lstm_o

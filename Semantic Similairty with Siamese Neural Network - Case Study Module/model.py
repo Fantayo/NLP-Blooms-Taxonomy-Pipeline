@@ -31,4 +31,4 @@ def siamese_manhattan_network(embed_mat_weights):
     		trainable=False,input_length=maxsentence_length)
 
 	ques1_embed = embedding_layer(ques1)
-	ques
+	ques2_embed = embedding_layer(ques2

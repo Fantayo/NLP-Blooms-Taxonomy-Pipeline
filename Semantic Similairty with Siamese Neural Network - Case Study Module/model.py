@@ -36,4 +36,6 @@ def siamese_manhattan_network(embed_mat_weights):
 	lstm = LSTM(hiddendim,return_sequences=False)
 
 	ques1_lstm_out = lstm(ques1_embed)
-	ques2_lstm_out = lstm(ques
+	ques2_lstm_out = lstm(ques2_embed)
+
+	manhattan_dis = Lambd

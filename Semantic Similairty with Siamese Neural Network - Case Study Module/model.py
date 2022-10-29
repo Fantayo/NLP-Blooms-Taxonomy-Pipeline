@@ -40,4 +40,6 @@ def siamese_manhattan_network(embed_mat_weights):
 
 	manhattan_dis = Lambda(lambda x:manhattandistance(x[0],x[1]),output_shape=lambda x:(x[0][0],1))([ques1_lstm_out,ques2_lstm_out])
 
-	model = Model(input
+	model = Model(inputs=[ques1,ques2],outputs=manhattan_dis)
+
+	o

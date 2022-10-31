@@ -42,4 +42,4 @@ def siamese_manhattan_network(embed_mat_weights):
 
 	model = Model(inputs=[ques1,ques2],outputs=manhattan_dis)
 
-	o
+	optimizer = Adam(clipnorm=1.25)

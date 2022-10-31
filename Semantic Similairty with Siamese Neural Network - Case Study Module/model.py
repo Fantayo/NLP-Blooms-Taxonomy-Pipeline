@@ -44,4 +44,4 @@ def siamese_manhattan_network(embed_mat_weights):
 
 	optimizer = Adam(clipnorm=1.25)
 
-	model.compile(optimizer=opti
+	model.compile(optimizer=optimizer,loss='binary_crossentropy',metrics=[

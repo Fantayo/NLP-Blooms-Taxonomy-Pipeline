@@ -48,4 +48,8 @@ def siamese_manhattan_network(embed_mat_weights):
 
 	return model
 
-model=siamese_manhattan_network(embed_mat_weights=embe
+model=siamese_manhattan_network(embed_mat_weights=embedding_matrix)
+model.summary()
+
+
+epo

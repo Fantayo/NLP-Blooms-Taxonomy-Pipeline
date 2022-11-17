@@ -52,4 +52,6 @@ model=siamese_manhattan_network(embed_mat_weights=embedding_matrix)
 model.summary()
 
 
-epo
+epochs=50
+batchsize=128
+start = time.perf_count

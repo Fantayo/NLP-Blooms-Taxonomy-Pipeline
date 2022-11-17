@@ -48,4 +48,4 @@ def siamese_manhattan_network(embed_mat_weights):
 
 	return model
 
-model=siame
+model=siamese_manhattan_network(embed_mat_weights=embe

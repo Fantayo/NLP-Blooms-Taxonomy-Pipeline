@@ -57,4 +57,5 @@ batchsize=128
 start = time.perf_counter()
 
 
-history=model.fit([train_pad1,trai
+history=model.fit([train_pad1,train_pad2],train_labels,
+          valid

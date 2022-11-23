@@ -54,4 +54,7 @@ model.summary()
 
 epochs=50
 batchsize=128
-start = time.perf_count
+start = time.perf_counter()
+
+
+history=model.fit([train_pad1,trai

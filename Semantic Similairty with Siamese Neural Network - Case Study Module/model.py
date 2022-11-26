@@ -58,4 +58,4 @@ start = time.perf_counter()
 
 
 history=model.fit([train_pad1,train_pad2],train_labels,
-          valid
+          validation_data=([test_pad1,test

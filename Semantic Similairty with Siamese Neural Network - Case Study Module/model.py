@@ -61,4 +61,7 @@ history=model.fit([train_pad1,train_pad2],train_labels,
           validation_data=([test_pad1,test_pad2],test_labels),
           batch_size=batchsize,epochs=epochs,verbose=1)
 
-elapsed = time.perf_counter() - sta
+elapsed = time.perf_counter() - start
+print('Elapsed %.3f seconds.' % elapsed)
+
+#

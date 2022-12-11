@@ -64,4 +64,5 @@ history=model.fit([train_pad1,train_pad2],train_labels,
 elapsed = time.perf_counter() - start
 print('Elapsed %.3f seconds.' % elapsed)
 
-#
+#To evaulate the model :
+model.evalua

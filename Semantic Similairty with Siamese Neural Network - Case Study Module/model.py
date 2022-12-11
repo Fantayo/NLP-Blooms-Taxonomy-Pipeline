@@ -65,4 +65,4 @@ elapsed = time.perf_counter() - start
 print('Elapsed %.3f seconds.' % elapsed)
 
 #To evaulate the model :
-model.evalua
+model.evaluate([test_pad1,test_pad2],test_labels)

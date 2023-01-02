@@ -9,4 +9,5 @@ def create_test_data(tokenizer, test_sentences_pair, max_sequence_length):
   test_sequences_2 = tokenizer.texts_to_sequences(test_sentences2)
 
 
-  test_data_1 = pad_sequences(test_sequences_1
+  test_data_1 = pad_sequences(test_sequences_1, maxlen=max_sequence_length)
+  te

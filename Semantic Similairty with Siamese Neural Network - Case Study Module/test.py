@@ -14,4 +14,5 @@ def create_test_data(tokenizer, test_sentences_pair, max_sequence_length):
 
   return test_data_1, test_data_2
 
-def get_predictions(test_data_1,test_data_2,model)
+def get_predictions(test_data_1,test_data_2,model):
+  preds = list(model.predict

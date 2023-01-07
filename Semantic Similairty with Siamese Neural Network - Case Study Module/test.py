@@ -16,4 +16,4 @@ def create_test_data(tokenizer, test_sentences_pair, max_sequence_length):
 
 def get_predictions(test_data_1,test_data_2,model):
   preds = list(model.predict([test_data_1, test_data_2], verbose=1).ravel())
-  results = [(x, y) for
+  results = [(x, y) for (x, y) in zip(test_sentence_pairs, p

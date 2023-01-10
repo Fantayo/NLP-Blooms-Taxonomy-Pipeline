@@ -22,4 +22,4 @@ def get_predictions(test_data_1,test_data_2,model):
   return results
 
 
-#Enter any custom pair of q
+#Enter any custom pair of question texts in test_sentence_pairs :

@@ -25,4 +25,5 @@ def get_predictions(test_data_1,test_data_2,model):
 #Enter any custom pair of question texts in test_sentence_pairs :
 test_sentence_pairs = [
                        ('What can make Physics easy to learn?','How can you make physics easy to learn?'),
-                       ('How many times a day do a clocks hands overlap?','What does it mean that every time I look at the clock the numbers are the same?'),  
+                       ('How many times a day do a clocks hands overlap?','What does it mean that every time I look at the clock the numbers are the same?'),                       
+                  

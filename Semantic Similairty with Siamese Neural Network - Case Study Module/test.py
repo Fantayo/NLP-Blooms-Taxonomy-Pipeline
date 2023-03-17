@@ -27,4 +27,4 @@ test_sentence_pairs = [
                        ('What can make Physics easy to learn?','How can you make physics easy to learn?'),
                        ('How many times a day do a clocks hands overlap?','What does it mean that every time I look at the clock the numbers are the same?'),                       
                        ('A little girl is looking at a woman in costume','A young girl is looking at a woman in costume'),
-                       ('A 
+                       ('A person is performing tricks on a motorcycle

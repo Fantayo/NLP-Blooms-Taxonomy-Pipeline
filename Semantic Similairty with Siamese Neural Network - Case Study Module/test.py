@@ -26,4 +26,5 @@ def get_predictions(test_data_1,test_data_2,model):
 test_sentence_pairs = [
                        ('What can make Physics easy to learn?','How can you make physics easy to learn?'),
                        ('How many times a day do a clocks hands overlap?','What does it mean that every time I look at the clock the numbers are the same?'),                       
-                       ('A little girl is looking at a woman in costume','A young girl is l
+                       ('A little girl is looking at a woman in costume','A young girl is looking at a woman in costume'),
+ 

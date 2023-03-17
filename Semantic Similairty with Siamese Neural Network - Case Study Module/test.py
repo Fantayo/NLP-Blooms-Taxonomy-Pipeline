@@ -28,4 +28,5 @@ test_sentence_pairs = [
                        ('How many times a day do a clocks hands overlap?','What does it mean that every time I look at the clock the numbers are the same?'),                       
                        ('A little girl is looking at a woman in costume','A young girl is looking at a woman in costume'),
                        ('A person is performing tricks on a motorcycle','The performer is tricking a person on a motorcycle'),
-                       ('Someone is pouring ingredients into a pot','A man is removing vegetables f
+                       ('Someone is pouring ingredients into a pot','A man is removing vegetables from a pot'),
+                       

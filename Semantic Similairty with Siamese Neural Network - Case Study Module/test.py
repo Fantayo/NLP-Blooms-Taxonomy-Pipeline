@@ -29,4 +29,4 @@ test_sentence_pairs = [
                        ('A little girl is looking at a woman in costume','A young girl is looking at a woman in costume'),
                        ('A person is performing tricks on a motorcycle','The performer is tricking a person on a motorcycle'),
                        ('Someone is pouring ingredients into a pot','A man is removing vegetables from a pot'),
-                       ('Nobody is pouring ingredients into a po
+                       ('Nobody is pouring ingredients into a pot','Someone is pouring ingredients into

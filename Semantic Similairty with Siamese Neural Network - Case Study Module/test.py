@@ -32,4 +32,8 @@ test_sentence_pairs = [
                        ('Nobody is pouring ingredients into a pot','Someone is pouring ingredients into a pot'),
                        
                        
-              
+                       ]
+
+
+max_Seq_len=240
+test_data

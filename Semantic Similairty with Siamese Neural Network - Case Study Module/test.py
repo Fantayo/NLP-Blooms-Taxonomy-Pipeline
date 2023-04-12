@@ -36,4 +36,6 @@ test_sentence_pairs = [
 
 
 max_Seq_len=240
-test_data_1, test_data_2=create_test_data(tokenizer=tokenizer,test_sentences_pairs=test_sentence_pairs,max_sequence_lengt
+test_data_1, test_data_2=create_test_data(tokenizer=tokenizer,test_sentences_pairs=test_sentence_pairs,max_sequence_length=max_Seq_len)
+
+get_predic

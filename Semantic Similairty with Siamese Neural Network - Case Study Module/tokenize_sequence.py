@@ -9,4 +9,5 @@ def get_max_seq_len(corpus):
   corpus_len=[]
 
   for question in corpus:
-    question_list=(str(question)).spli
+    question_list=(str(question)).split()
+    corpus_len.append(len

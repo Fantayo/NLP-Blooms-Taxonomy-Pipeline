@@ -8,4 +8,5 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 def get_max_seq_len(corpus):
   corpus_len=[]
 
-  for ques
+  for question in corpus:
+    question_list=(str(question)).spli

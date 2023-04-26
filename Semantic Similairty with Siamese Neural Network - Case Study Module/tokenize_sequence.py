@@ -12,4 +12,8 @@ def get_max_seq_len(corpus):
     question_list=(str(question)).split()
     corpus_len.append(len(question_list))
 
-  return max(c
+  return max(corpus_len)
+
+
+
+max_Seq_len=max(get_max_seq_len

@@ -10,4 +10,6 @@ def get_max_seq_len(corpus):
 
   for question in corpus:
     question_list=(str(question)).split()
-    corpus_len.append(len
+    corpus_len.append(len(question_list))
+
+  return max(c

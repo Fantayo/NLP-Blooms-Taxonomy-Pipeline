@@ -16,4 +16,4 @@ def get_max_seq_len(corpus):
 
 
 
-max_Seq_len=max(get_max_seq_len
+max_Seq_len=max(get_max_seq_len(data['question1']),get_max_seq_len(data['questi

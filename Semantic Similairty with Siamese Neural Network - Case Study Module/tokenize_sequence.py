@@ -17,4 +17,7 @@ def get_max_seq_len(corpus):
 
 
 max_Seq_len=max(get_max_seq_len(data['question1']),get_max_seq_len(data['question2']))
-sentence_length=max_Seq_le
+sentence_length=max_Seq_len
+
+#to tokenize the raw text :
+tokenizer=Tokeni

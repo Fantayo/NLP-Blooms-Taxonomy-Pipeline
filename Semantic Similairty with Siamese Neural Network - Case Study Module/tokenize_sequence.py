@@ -21,4 +21,5 @@ sentence_length=max_Seq_len
 
 #to tokenize the raw text :
 tokenizer=Tokenizer(num_words=50000)
-tokenizer.fit_on_
+tokenizer.fit_on_texts(train_ques1+train_ques2)
+word_index

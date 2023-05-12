@@ -25,4 +25,4 @@ tokenizer.fit_on_texts(train_ques1+train_ques2)
 word_index=tokenizer.word_index
 
 
-#
+#Converting raw text to sequences and th

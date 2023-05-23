@@ -27,4 +27,7 @@ word_index=tokenizer.word_index
 
 #Converting raw text to sequences and then padding them for uniform mapping :
 train_pad1 = pad_sequences(tokenizer.texts_to_sequences(train_ques1),maxlen=sentence_length)
-train_pad2 = pad_sequences(tokenizer.texts_to_sequences(train_ques2),maxlen
+train_pad2 = pad_sequences(tokenizer.texts_to_sequences(train_ques2),maxlen=sentence_length)
+
+
+test_pad1 = pa

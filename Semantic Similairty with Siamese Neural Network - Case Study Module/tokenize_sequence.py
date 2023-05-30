@@ -31,4 +31,5 @@ train_pad2 = pad_sequences(tokenizer.texts_to_sequences(train_ques2),maxlen=sent
 
 
 test_pad1 = pad_sequences(tokenizer.texts_to_sequences(test_ques1),maxlen=sentence_length)
-test_pad2 = pad_sequences(tokenizer.texts_to_sequences(test_ques2),maxlen
+test_pad2 = pad_sequences(tokenizer.texts_to_sequences(test_ques2),maxlen=sentence_length)
+

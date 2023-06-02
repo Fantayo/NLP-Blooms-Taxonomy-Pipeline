@@ -47,3 +47,21 @@ def make_dataframe(file):
                     Txt.append(text)
 
     print('Done')      
+
+    new_df = pd.DataFrame(columns=['Id','title','context','question','ans_start','text']) 
+    new_df.Id = iid
+    new_df.title = tit           
+    new_df.context = con
+    new_df.question = Que
+    new_df.ans_start = Ans_st
+    new_df.text = Txt
+
+    final_df = new_df.drop_duplicates(keep='first')  
+
+    return final_df
+
+train_csv = make_dataframe(train_input_file_path)
+test_csv  = make_dataframe(dev_input_file_path)
+
+train_csv.to_csv("data/train.csv" , index = False)  # Save the final train csv file 
+test_csv.to_csv("data/test.csv" , index = False)    # Save the final test csv file

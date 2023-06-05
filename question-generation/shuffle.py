@@ -15,3 +15,4 @@ test_data = shuffle(test_data)
 
 
 train_data.to_csv('/content/gdrive/My Drive/Dataset _ QG/train.csv',index=False)
+test_data.to_csv('/content/gdrive/My Drive/Dataset _ QG/test.csv',index=False)

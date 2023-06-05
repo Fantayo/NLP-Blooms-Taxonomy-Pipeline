@@ -26,3 +26,10 @@ model.eval()
 outputs = model.generate(
     input_ids=input_ids,attention_mask=attention_mask,
     max_length=72,
+    early_stopping=True,
+    num_beams=5,
+    num_return_sequences=1)   # Can decide on how many framed questions to return, can set as much as you wish
+
+for i in outputs:
+    sent = tokenizer.decode(i, skip_special_tokens=True,clean_up_tokenization_spaces=True)
+    print(sent) # Prints all possible sentences

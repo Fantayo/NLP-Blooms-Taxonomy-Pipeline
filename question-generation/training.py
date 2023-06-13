@@ -6,4 +6,6 @@ import logging
 import random
 import re
 from itertools import chain
-from st
+from string import punctuation
+
+import pan

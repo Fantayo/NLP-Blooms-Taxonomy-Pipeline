@@ -8,4 +8,8 @@ import re
 from itertools import chain
 from string import punctuation
 
-import pan
+import pandas as pd
+import numpy as np
+
+import torch
+fr

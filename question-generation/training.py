@@ -24,3 +24,6 @@ from transformers import get_linear_schedule_with_warmup
 import pytorch_lightning as pl
 
 from tqdm.notebook import tqdm
+import copy
+
+pl.seed_everything

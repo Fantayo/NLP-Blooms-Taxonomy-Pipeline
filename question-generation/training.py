@@ -18,4 +18,5 @@ from termcolor import colored
 import textwrap
 
 from transformers import AdamW 
-from transformers import T5ForConditionalGen
+from transformers import T5ForConditionalGeneration
+from transformers import T5Token

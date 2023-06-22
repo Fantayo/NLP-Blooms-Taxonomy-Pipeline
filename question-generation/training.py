@@ -21,4 +21,6 @@ from transformers import AdamW
 from transformers import T5ForConditionalGeneration
 from transformers import T5Tokenizer
 from transformers import get_linear_schedule_with_warmup
-import pytorch_l
+import pytorch_lightning as pl
+
+from tqdm.notebook import tqdm

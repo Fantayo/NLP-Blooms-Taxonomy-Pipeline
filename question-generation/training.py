@@ -19,4 +19,5 @@ import textwrap
 
 from transformers import AdamW 
 from transformers import T5ForConditionalGeneration
-from transformers import T5Token
+from transformers import T5Tokenizer
+from transformers import get_lin

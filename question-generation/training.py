@@ -26,4 +26,7 @@ import pytorch_lightning as pl
 from tqdm.notebook import tqdm
 import copy
 
-pl.seed_everything
+pl.seed_everything(42)
+
+
+t5_tokenizer = T5Tokeniz

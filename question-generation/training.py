@@ -29,4 +29,5 @@ import copy
 pl.seed_everything(42)
 
 
-t5_tokenizer = T5Tokeniz
+t5_tokenizer = T5Tokenizer.from_pretrained('t5-base')
+t5_model =

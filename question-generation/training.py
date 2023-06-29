@@ -34,4 +34,4 @@ t5_model = T5ForConditionalGeneration.from_pretrained('t5-base')
 
 class QuestionGenerationDataset(Dataset):
 
-    def _
+    def __init__(self, tokenizer, filepath, ma

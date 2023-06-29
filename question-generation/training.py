@@ -30,4 +30,6 @@ pl.seed_everything(42)
 
 
 t5_tokenizer = T5Tokenizer.from_pretrained('t5-base')
-t5_model = T5ForConditionalGeneration.from
+t5_model = T5ForConditionalGeneration.from_pretrained('t5-base')
+
+class Que

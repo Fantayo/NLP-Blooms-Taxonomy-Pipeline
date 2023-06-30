@@ -36,4 +36,5 @@ class QuestionGenerationDataset(Dataset):
 
     def __init__(self, tokenizer, filepath, max_len_inp=512,max_len_out=96):
 
-    
+        self.path = filepath
+        self.

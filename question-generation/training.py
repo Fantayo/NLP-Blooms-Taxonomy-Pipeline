@@ -38,4 +38,5 @@ class QuestionGenerationDataset(Dataset):
 
         self.path = filepath
         self.passage_column = "context"
-      
+        self.answer = "text"
+        self

@@ -41,4 +41,4 @@ class QuestionGenerationDataset(Dataset):
         self.answer = "text"
         self.question = "question"
 
-        self
+        self.data = pd.read_csv(self.path , nrows = 1000)

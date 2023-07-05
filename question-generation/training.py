@@ -43,4 +43,5 @@ class QuestionGenerationDataset(Dataset):
 
         self.data = pd.read_csv(self.path , nrows = 1000)
 
-        self.max_len_input = max
+        self.max_len_input = max_len_inp
+        self.max_len_output = max_len_o

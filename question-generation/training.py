@@ -47,4 +47,7 @@ class QuestionGenerationDataset(Dataset):
         self.max_len_output = max_len_out
         self.tokenizer = tokenizer
         self.inputs = []
-        self.targ
+        self.targets = []
+        self.skippedcount =0
+
+       

@@ -50,4 +50,6 @@ class QuestionGenerationDataset(Dataset):
         self.targets = []
         self.skippedcount =0
 
-       
+        self._build()
+
+    def __len__(self

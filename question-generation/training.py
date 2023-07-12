@@ -58,4 +58,4 @@ class QuestionGenerationDataset(Dataset):
 
     def __getitem__(self, index):
 
-        so
+        source_ids = self.inputs[index]["input_ids"].sque

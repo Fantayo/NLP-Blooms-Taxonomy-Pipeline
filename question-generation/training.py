@@ -56,3 +56,6 @@ class QuestionGenerationDataset(Dataset):
 
         return len(self.inputs)
 
+    def __getitem__(self, index):
+
+        so

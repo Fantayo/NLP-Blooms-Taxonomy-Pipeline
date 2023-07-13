@@ -65,4 +65,6 @@ class QuestionGenerationDataset(Dataset):
         target_mask = self.targets[index]["attention_mask"].squeeze()  
 
         labels = copy.deepcopy(target_ids)
-        
+        labels [labels==0] = -100
+
+    

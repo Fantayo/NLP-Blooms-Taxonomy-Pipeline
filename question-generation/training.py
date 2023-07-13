@@ -61,4 +61,4 @@ class QuestionGenerationDataset(Dataset):
         source_ids = self.inputs[index]["input_ids"].squeeze()
         target_ids = self.targets[index]["input_ids"].squeeze()
 
-       
+        src_mask = self.inputs[index]["attention

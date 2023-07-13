@@ -62,4 +62,6 @@ class QuestionGenerationDataset(Dataset):
         target_ids = self.targets[index]["input_ids"].squeeze()
 
         src_mask = self.inputs[index]["attention_mask"].squeeze()  
-        target_mask = self.targets[index]["attentio
+        target_mask = self.targets[index]["attention_mask"].squeeze()  
+
+        labels = c

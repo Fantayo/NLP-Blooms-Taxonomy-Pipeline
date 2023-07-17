@@ -67,4 +67,4 @@ class QuestionGenerationDataset(Dataset):
         labels = copy.deepcopy(target_ids)
         labels [labels==0] = -100
 
-        return {"source_ids": source_ids, "source_mask": src_mask, "target_ids
+        return {"source_ids": source_ids, "source_mask": src_mask, "target_ids": target_ids, "target_mask": target_mask,"labe

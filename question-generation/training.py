@@ -71,4 +71,6 @@ class QuestionGenerationDataset(Dataset):
 
     def _build(self):
 
-        for 
+        for idx in tqdm(range(len(self.data))):
+
+ 

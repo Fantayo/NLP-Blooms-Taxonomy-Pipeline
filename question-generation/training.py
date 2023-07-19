@@ -75,4 +75,4 @@ class QuestionGenerationDataset(Dataset):
 
             passage,answer,target = self.data.loc[idx, self.passage_column],self.data.loc[idx, self.answer], self.data.loc[idx, self.question]
 
-  
+            input_ = "context: %s  answer: %s </s>" %

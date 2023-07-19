@@ -73,4 +73,4 @@ class QuestionGenerationDataset(Dataset):
 
         for idx in tqdm(range(len(self.data))):
 
- 
+            passage,answer,target = se

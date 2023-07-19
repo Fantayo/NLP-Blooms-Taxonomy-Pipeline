@@ -78,4 +78,5 @@ class QuestionGenerationDataset(Dataset):
             input_ = "context: %s  answer: %s </s>" % (passage, answer)
             target = "question: %s </s>" % (str(target))
 
-            test_input_encoding =
+            test_input_encoding = self.tokenizer.encode_plus(input_,
+   

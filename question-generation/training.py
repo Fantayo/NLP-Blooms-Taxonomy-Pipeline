@@ -79,4 +79,5 @@ class QuestionGenerationDataset(Dataset):
             target = "question: %s </s>" % (str(target))
 
             test_input_encoding = self.tokenizer.encode_plus(input_,
-                                     
+                                        truncation=False,
+                      

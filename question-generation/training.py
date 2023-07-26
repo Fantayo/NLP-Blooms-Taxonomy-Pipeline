@@ -80,4 +80,6 @@ class QuestionGenerationDataset(Dataset):
 
             test_input_encoding = self.tokenizer.encode_plus(input_,
                                         truncation=False,
-                                        return_tensors="p
+                                        return_tensors="pt")
+            
+            length_of_input_encoding

@@ -82,4 +82,7 @@ class QuestionGenerationDataset(Dataset):
                                         truncation=False,
                                         return_tensors="pt")
             
-            length_of_input_encoding = len(test_input_encoding['input
+            length_of_input_encoding = len(test_input_encoding['input_ids'][0])
+
+
+            if length_of_input_encoding 

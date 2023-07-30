@@ -85,4 +85,6 @@ class QuestionGenerationDataset(Dataset):
             length_of_input_encoding = len(test_input_encoding['input_ids'][0])
 
 
-            if length_of_input_encoding 
+            if length_of_input_encoding > self.max_len_input:
+
+                s

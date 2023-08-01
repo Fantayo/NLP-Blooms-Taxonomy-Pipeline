@@ -87,4 +87,6 @@ class QuestionGenerationDataset(Dataset):
 
             if length_of_input_encoding > self.max_len_input:
 
-                s
+                self.skippedcount = self.skippedcount + 1
+
+  

@@ -89,4 +89,6 @@ class QuestionGenerationDataset(Dataset):
 
                 self.skippedcount = self.skippedcount + 1
 
-  
+                continue
+
+            to

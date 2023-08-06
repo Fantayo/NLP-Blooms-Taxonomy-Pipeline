@@ -91,4 +91,5 @@ class QuestionGenerationDataset(Dataset):
 
                 continue
 
-            tokenized_inputs = self.tokenizer.batch_encod
+            tokenized_inputs = self.tokenizer.batch_encode_plus(
+                [input_], max_

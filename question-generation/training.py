@@ -95,4 +95,5 @@ class QuestionGenerationDataset(Dataset):
                 [input_], max_length=self.max_len_input, pad_to_max_length=True, return_tensors="pt"
             )
 
-            tokenized_targets = self.to
+            tokenized_targets = self.tokenizer.batch_encode_plus(
+            

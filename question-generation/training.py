@@ -96,4 +96,4 @@ class QuestionGenerationDataset(Dataset):
             )
 
             tokenized_targets = self.tokenizer.batch_encode_plus(
-            
+                [target], max_length=self.ma

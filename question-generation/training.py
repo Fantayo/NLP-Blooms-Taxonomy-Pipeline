@@ -100,4 +100,4 @@ class QuestionGenerationDataset(Dataset):
             )
 
 
-  
+            self.inputs.append(token

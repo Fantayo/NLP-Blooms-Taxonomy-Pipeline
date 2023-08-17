@@ -101,4 +101,6 @@ class QuestionGenerationDataset(Dataset):
 
 
             self.inputs.append(tokenized_inputs)
-            self.targets
+            self.targets.append(tokenized_targets)
+
+

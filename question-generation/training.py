@@ -104,3 +104,4 @@ class QuestionGenerationDataset(Dataset):
             self.targets.append(tokenized_targets)
 
 
+train_file_path = '/content/gdrive/

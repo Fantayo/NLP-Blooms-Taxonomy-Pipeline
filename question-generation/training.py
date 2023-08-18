@@ -104,4 +104,5 @@ class QuestionGenerationDataset(Dataset):
             self.targets.append(tokenized_targets)
 
 
-train_file_path = '/content/gdrive/My Drive/Dataset _ QG/train.csv'  # Shuf
+train_file_path = '/content/gdrive/My Drive/Dataset _ QG/train.csv'  # Shuffled dataset
+train_dataset = Q

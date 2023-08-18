@@ -108,4 +108,5 @@ train_file_path = '/content/gdrive/My Drive/Dataset _ QG/train.csv'  # Shuffled 
 train_dataset = QuestionGenerationDataset(t5_tokenizer, train_file_path)
 
 
-# Prin
+# Print out a sample train pair
+# train_sample = train_da

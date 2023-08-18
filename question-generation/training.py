@@ -109,4 +109,5 @@ train_dataset = QuestionGenerationDataset(t5_tokenizer, train_file_path)
 
 
 # Print out a sample train pair
-# train_sample = train_da
+# train_sample = train_dataset[123]
+# decoded_train_input = t5_tokenizer.dec

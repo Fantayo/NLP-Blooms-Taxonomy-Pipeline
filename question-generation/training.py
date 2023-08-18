@@ -105,4 +105,7 @@ class QuestionGenerationDataset(Dataset):
 
 
 train_file_path = '/content/gdrive/My Drive/Dataset _ QG/train.csv'  # Shuffled dataset
-train_dataset = QuestionGenerationDataset(t5
+train_dataset = QuestionGenerationDataset(t5_tokenizer, train_file_path)
+
+
+# Prin

@@ -111,4 +111,6 @@ train_dataset = QuestionGenerationDataset(t5_tokenizer, train_file_path)
 # Print out a sample train pair
 # train_sample = train_dataset[123]
 # decoded_train_input = t5_tokenizer.decode(train_sample['source_ids'])
-# decoded_train_output = t5_tokeni
+# decoded_train_output = t5_tokenizer.decode(train_sample['target_ids'])
+
+# print 

@@ -114,4 +114,6 @@ train_dataset = QuestionGenerationDataset(t5_tokenizer, train_file_path)
 # decoded_train_output = t5_tokenizer.decode(train_sample['target_ids'])
 
 # print (decoded_train_input)
-# print (decoded_t
+# print (decoded_train_output)
+
+validation_path = '/conten

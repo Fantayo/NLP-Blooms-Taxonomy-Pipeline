@@ -117,4 +117,6 @@ train_dataset = QuestionGenerationDataset(t5_tokenizer, train_file_path)
 # print (decoded_train_output)
 
 validation_path = '/content/gdrive/My Drive/Dataset _ QG/test.csv'
-validation_dataset = QuestionGenera
+validation_dataset = QuestionGenerationDataset(t5_tokenizer,validation_path)
+
+

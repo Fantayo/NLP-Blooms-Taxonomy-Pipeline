@@ -116,4 +116,4 @@ train_dataset = QuestionGenerationDataset(t5_tokenizer, train_file_path)
 # print (decoded_train_input)
 # print (decoded_train_output)
 
-validation_path = '/conten
+validation_path = '/content/gdrive/My Drive/Dataset _ QG/test.cs

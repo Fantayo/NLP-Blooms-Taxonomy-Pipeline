@@ -120,3 +120,5 @@ validation_path = '/content/gdrive/My Drive/Dataset _ QG/test.csv'
 validation_dataset = QuestionGenerationDataset(t5_tokenizer,validation_path)
 
 
+# Print out a sample train pair
+# te

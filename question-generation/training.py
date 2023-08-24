@@ -121,4 +121,4 @@ validation_dataset = QuestionGenerationDataset(t5_tokenizer,validation_path)
 
 
 # Print out a sample train pair
-# te
+# test_sample = validation_datase

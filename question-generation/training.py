@@ -123,4 +123,6 @@ validation_dataset = QuestionGenerationDataset(t5_tokenizer,validation_path)
 # Print out a sample train pair
 # test_sample = validation_dataset[123]
 # decoded_test_input = t5_tokenizer.decode(test_sample['source_ids'])
-# decoded_test_output = t5_tokenizer
+# decoded_test_output = t5_tokenizer.decode(test_sample['target_ids'])
+
+# print 

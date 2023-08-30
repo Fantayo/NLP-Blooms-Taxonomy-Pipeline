@@ -126,4 +126,9 @@ validation_dataset = QuestionGenerationDataset(t5_tokenizer,validation_path)
 # decoded_test_output = t5_tokenizer.decode(test_sample['target_ids'])
 
 # print (decoded_test_input)
-# print (decoded_test
+# print (decoded_test_output)
+
+
+class T5FineTuner(pl.LightningModule):
+
+  

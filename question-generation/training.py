@@ -131,4 +131,4 @@ validation_dataset = QuestionGenerationDataset(t5_tokenizer,validation_path)
 
 class T5FineTuner(pl.LightningModule):
 
-  
+    def __init__(self,hparams, t5mo

@@ -133,4 +133,5 @@ class T5FineTuner(pl.LightningModule):
 
     def __init__(self,hparams, t5model, t5tokenizer):
 
-        super(T5FineTuner, 
+        super(T5FineTuner, self).__init__()
+        self.

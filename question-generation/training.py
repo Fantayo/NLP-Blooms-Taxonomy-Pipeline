@@ -136,4 +136,7 @@ class T5FineTuner(pl.LightningModule):
         super(T5FineTuner, self).__init__()
         self.hparams = hparams
         self.model = t5model
-        self.tokenizer = t5toke
+        self.tokenizer = t5tokenizer
+ 
+ 
+    def forward( self, input_ids,

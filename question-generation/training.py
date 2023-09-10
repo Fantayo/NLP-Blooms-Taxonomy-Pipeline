@@ -139,4 +139,6 @@ class T5FineTuner(pl.LightningModule):
         self.tokenizer = t5tokenizer
  
  
-    def forward( self, input_ids, attention_mask=None, decoder_input_ids=None, decoder_attention_mask=None, lm_labels=None)
+    def forward( self, input_ids, attention_mask=None, decoder_input_ids=None, decoder_attention_mask=None, lm_labels=None):
+
+         outputs = self.mod

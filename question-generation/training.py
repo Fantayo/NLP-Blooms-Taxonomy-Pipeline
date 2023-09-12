@@ -141,4 +141,6 @@ class T5FineTuner(pl.LightningModule):
  
     def forward( self, input_ids, attention_mask=None, decoder_input_ids=None, decoder_attention_mask=None, lm_labels=None):
 
-         outputs = self.mod
+         outputs = self.model(
+            input_ids=input_ids,
+          

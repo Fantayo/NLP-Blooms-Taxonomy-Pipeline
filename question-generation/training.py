@@ -143,4 +143,5 @@ class T5FineTuner(pl.LightningModule):
 
          outputs = self.model(
             input_ids=input_ids,
-            attention_mask=attention_m
+            attention_mask=attention_mask,
+            decoder_attention_mask=decoder_atte

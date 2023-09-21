@@ -145,4 +145,7 @@ class T5FineTuner(pl.LightningModule):
             input_ids=input_ids,
             attention_mask=attention_mask,
             decoder_attention_mask=decoder_attention_mask,
-            labels=lm_labels
+            labels=lm_labels,
+        )
+         
+         return output

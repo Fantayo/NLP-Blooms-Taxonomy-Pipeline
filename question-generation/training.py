@@ -148,4 +148,7 @@ class T5FineTuner(pl.LightningModule):
             labels=lm_labels,
         )
          
-         return output
+         return outputs.loss , outputs.logits
+ 
+ 
+    def training

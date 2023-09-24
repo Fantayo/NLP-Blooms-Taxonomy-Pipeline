@@ -151,4 +151,6 @@ class T5FineTuner(pl.LightningModule):
          return outputs.loss , outputs.logits
  
  
-    def training
+    def training_step(self, batch, batch_idx):
+
+     

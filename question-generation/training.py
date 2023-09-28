@@ -153,4 +153,5 @@ class T5FineTuner(pl.LightningModule):
  
     def training_step(self, batch, batch_idx):
 
-     
+        outputs = self.forward(
+         

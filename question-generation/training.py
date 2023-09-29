@@ -156,4 +156,5 @@ class T5FineTuner(pl.LightningModule):
         outputs = self.forward(
             input_ids=batch["source_ids"],
             attention_mask=batch["source_mask"],
-            decoder_inp
+            decoder_input_ids = batch["target_ids"],
+    

@@ -161,4 +161,6 @@ class T5FineTuner(pl.LightningModule):
             lm_labels=batch['labels']
         )
  
-        loss = out
+        loss = outputs[0]
+
+        self.log('train_loss',los

@@ -163,4 +163,5 @@ class T5FineTuner(pl.LightningModule):
  
         loss = outputs[0]
 
-        self.log('train_loss',los
+        self.log('train_loss',loss , prog_bar = True , logger = True)
+

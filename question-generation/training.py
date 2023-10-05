@@ -165,3 +165,6 @@ class T5FineTuner(pl.LightningModule):
 
         self.log('train_loss',loss , prog_bar = True , logger = True)
 
+        return loss
+ 
+    def validati

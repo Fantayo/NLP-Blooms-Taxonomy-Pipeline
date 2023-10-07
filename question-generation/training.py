@@ -167,4 +167,6 @@ class T5FineTuner(pl.LightningModule):
 
         return loss
  
-    def validati
+    def validation_step(self, batch, batch_idx):
+
+        output

@@ -169,4 +169,5 @@ class T5FineTuner(pl.LightningModule):
  
     def validation_step(self, batch, batch_idx):
 
-        output
+        outputs = self.forward(
+            input_ids=batch["source_ids"],

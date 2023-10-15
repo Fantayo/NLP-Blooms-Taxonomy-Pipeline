@@ -175,4 +175,8 @@ class T5FineTuner(pl.LightningModule):
             decoder_input_ids = batch["target_ids"],
             decoder_attention_mask=batch['target_mask'],
             lm_labels=batch['labels']
-    
+        )
+ 
+        loss = outputs[0]
+
+ 

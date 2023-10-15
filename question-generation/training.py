@@ -185,4 +185,6 @@ class T5FineTuner(pl.LightningModule):
  
     def train_dataloader(self):
 
-        return DataLoader(train_dataset, batch_size=self.hparams.batch_size,num_workers
+        return DataLoader(train_dataset, batch_size=self.hparams.batch_size,num_workers=4)
+ 
+    def val_dataloa

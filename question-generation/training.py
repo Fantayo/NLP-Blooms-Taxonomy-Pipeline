@@ -179,4 +179,6 @@ class T5FineTuner(pl.LightningModule):
  
         loss = outputs[0]
 
-        self.log("val_loss",loss, prog_
+        self.log("val_loss",loss, prog_bar = True , logger = True)
+
+        return lo

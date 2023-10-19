@@ -195,4 +195,7 @@ class T5FineTuner(pl.LightningModule):
 
         optimizer = AdamW(self.parameters(), lr=3e-4, eps=1e-8)
         
-        return 
+        return optimizer
+
+
+args_dict = dict(b

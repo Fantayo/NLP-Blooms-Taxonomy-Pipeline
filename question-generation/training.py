@@ -200,4 +200,7 @@ class T5FineTuner(pl.LightningModule):
 
 args_dict = dict(batch_size=1)  # Can alter based on how many batches you want
 
-args = argparse.N
+args = argparse.Namespace(**args_dict)
+ 
+ 
+model =

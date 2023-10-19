@@ -198,4 +198,4 @@ class T5FineTuner(pl.LightningModule):
         return optimizer
 
 
-args_dict = dict(b
+args_dict = dict(batch_size=1)  # Can alter based on h

@@ -203,4 +203,4 @@ args_dict = dict(batch_size=1)  # Can alter based on how many batches you want
 args = argparse.Namespace(**args_dict)
  
  
-model =
+model = T5FineTuner(args, t5_model, t5_to

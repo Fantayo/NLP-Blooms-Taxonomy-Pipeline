@@ -208,4 +208,6 @@ model = T5FineTuner(args, t5_model, t5_tokenizer)
 trainer = pl.Trainer(max_epochs = 5, gpus=1,progress_bar_refresh_rate=30)
 
 
-trainer.fit(model) # Starts the tr
+trainer.fit(model) # Starts the training
+
+print("Saving model"

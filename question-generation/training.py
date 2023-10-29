@@ -211,4 +211,5 @@ trainer = pl.Trainer(max_epochs = 5, gpus=1,progress_bar_refresh_rate=30)
 trainer.fit(model) # Starts the training
 
 print("Saving model")
-save_path_model = 'your_path/mod
+save_path_model = 'your_path/model'
+save_path_tokenizer = 'your_path/tok

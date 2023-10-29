@@ -212,4 +212,5 @@ trainer.fit(model) # Starts the training
 
 print("Saving model")
 save_path_model = 'your_path/model'
-save_path_tokenizer = 'your_path/tok
+save_path_tokenizer = 'your_path/tokenizer'
+model.model.save_pretrained(save_pa
